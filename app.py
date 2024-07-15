@@ -230,7 +230,7 @@ multiselect_options = {col.rstrip('_M'): dropdowns_df[col].dropna().unique().tol
 
 # UI Building
 st.title('Javabdar Information Form')
-st.markdown("Select the Zone, Cluster and Kendra that you are :red[***responsible***] for.")
+st.markdown("Select your :red[***home***] Zone, Cluster and Kendra.")
 col1, col2, col3 = st.columns(3)
 with col1:
     selected_zone = st.selectbox('Zone *', ['Select a Zone'] + sorted(zone_cluster_kendra_mapping.keys()), index=0, key='selected_zone', on_change=update_clusters)
