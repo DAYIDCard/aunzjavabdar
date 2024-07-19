@@ -16,7 +16,7 @@ from PIL import ImageOps
 from streamlit_cropper import st_cropper
 import time
 
-st.set_page_config(page_title="Javabdar Information", page_icon="form.png", layout="centered")
+st.set_page_config(page_title="AU/NZ Javabdar Information", page_icon="form.png", layout="centered")
 
 # Set up Google Sheets and Drive access
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
