@@ -324,7 +324,9 @@ if image is not None:
                     if input_data[field_key]:
                         input_data[field_key] = ''.join(filter(str.isdigit, input_data[field_key]))
                         # Valid phone number only if its len is either 11 or 10 after removing non digits
-                        if len(input_data[field_key]) in (11, 10):
+                        if len(input_data[field_key]) == 11:
+                            input_data[field_key] = input_data[field_key][-11:]
+                        elif (len(input_data[field_key])) == 10:
                             input_data[field_key] = input_data[field_key][-10:]
                         else:
                             is_phone_valid = False
