@@ -4,11 +4,11 @@ Middle name *,Current Jimmedari (Year since) *,Spouse's Profession
 Last name *,Bhavferi (Year since),Spouse Involved in Swadhyay since (Year)
 Gender *,Vrati Bhaktiferi (Year since),Spouse's Current Vibhag Jimmedari (if applicable)
 Home Address *,MGD Bhaktiferi (Year since),Child 1's Name
-City *,International Bhaktiferi,Child 2's Name
-State/Province *,Ekadashi (Year since),Child 3's Name
-PostCode *,BSK Sanchalak/Observer (Year since) - select only if current,Child 4's Name
-Email *,Vidya Prem Vardhan Pariksha - last passed ,
-Phone Number *,Graduated from Tattvagyan Vidyapeeth (Graduation Year),
+City *,Ekadashi (Year since),Child 2's Name
+State/Province *,BSK Sanchalak/Observer (Year since) - select only if current,Child 3's Name
+PostCode *,Vidya Prem Vardhan Pariksha - last passed ,Child 4's Name
+Email *,Graduated from Tattvagyan Vidyapeeth (Graduation Year),
+Phone Number *,,
 Profession *,,
 Birth Year *,,
 Involved in Swadhyay since (Year) *,,
